@@ -16,5 +16,8 @@ if(mysql_query($query))
     echo '<script>alert("Cadastro efetuado com sucesso!");location.href="frmlogin.php";</script>';
 else
     echo mysql_error() . '<br/>'.'<a href=index.php> Voltar para página inicial </a>';
+    
+    
+    // teste remoto
 
 
